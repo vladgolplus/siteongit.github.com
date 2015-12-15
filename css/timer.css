@@ -1,0 +1,94 @@
+
+.countdownHolder{
+  width:252px;
+  margin:0 auto;
+  font:50px arial,sans-serif;
+  text-align:center;
+  letter-spacing:-3px;
+  margin-top: 10px;
+  text-shadow:1px 1px 1px #000;
+}
+
+.position{
+  display: inline-block;
+  height: 1.6em;
+  overflow: hidden;
+  position: relative;
+  width: 27px;
+  margin-left: -10px;
+}
+
+.digit{
+  position:absolute;
+  display:block;  
+  border-radius:0.2em;
+  text-align:center;
+  color:#fff;
+  letter-spacing:-1px;
+}
+
+.digit.static{
+
+}
+
+.countDays{  display:none !important; }
+.countDiv0{ display:none !important; }
+.countHours{
+  margin-right:40px;   
+}
+.countDiv1{display:none !important; }
+.countMinutes{
+  margin-right:40px;
+}
+.countDiv2{display:none !important; }
+.countSeconds{}
+
+
+.countDiv{
+  display:inline-block;
+  width:16px;
+  height:1.6em;
+  position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+  position:absolute;
+  width:5px;
+  height:5px;
+  background-color:#444;
+  border-radius:50%;
+  left:50%;
+  margin-left:-3px;
+  top:0.5em;
+  box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+  content:'';
+}
+
+.countDiv:after{
+  top:0.9em;
+}
+#countdown{
+  background: url(../images/timer.png) no-repeat;
+  width: 252px;
+  height: 90px;
+  padding-top: 14px;
+  padding-left: 8px;
+}
+.id-countdown{
+  background: url(../images/timer-plus.png) no-repeat;
+  width: 245px;
+  height: 10px;
+  position: absolute;
+  z-index: 999;
+  margin-top: 22px;
+  margin-left: -4px;
+}
+#countdown-plus{
+  background: url(../images/timer.png) no-repeat;
+  width: 252px;
+  height: 90px;
+  padding-top: 14px;
+  padding-left: 8px;
+}
+

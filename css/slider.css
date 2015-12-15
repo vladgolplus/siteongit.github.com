@@ -1,0 +1,36 @@
+/** page structure **/
+#w {
+  display: block;
+  max-width: 1920px;
+  min-width: 50px;
+  margin: 0 auto; 
+  overflow: hidden;
+  height: 200px;
+}
+/** posts slider widget **/
+.crsl-item {
+    width:515px !important;
+}
+.crsl-item .thumbnail {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.crsl-item .thumbnail img { 
+  display: block; /* fix 1px image space http://stackoverflow.com/q/5804256/477958 */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.crsl-item .thumbnail:hover img {
+  opacity: 0.8;
+}
+
+/** posts slider nav **/
+.slidernav {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
